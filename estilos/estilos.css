@@ -47,7 +47,7 @@ img{
 }
 .contenedor{
     /*centrar el contenido*/
-    max-width: 120rem;
+    width: 100%;
     margin: 0 auto;
     
 }
