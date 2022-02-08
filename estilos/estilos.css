@@ -1,8 +1,8 @@
 :root{
-    --primario:#878787;
-    --primarioOscuro:#505050;
-    --secundario:#A20000;
-    --secundarioOscuro:#520000;
+    --primario:#2C3E50 ;
+    --primarioOscuro:#17202A;
+    --secundario:#78281F  ;
+    --secundarioOscuro:#B8B8B8 ;
     --blanco:#ffffff;
     --negro:#000000;
 
@@ -49,6 +49,7 @@ img{
     /*centrar el contenido*/
     max-width: 120rem;
     margin: 0 auto;
+    
 }
 
 h1,h2,h3{
@@ -105,6 +106,7 @@ h3{font-size: 2.4rem;}
 /*grid*/
 
 .grid{
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
