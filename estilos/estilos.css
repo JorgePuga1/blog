@@ -209,3 +209,45 @@ h3{font-size: 2.4rem;}
 .bloque__titulo{
  margin: 0;
 }
+
+/*producto*/
+ 
+@media (min-width: 768px){
+    .criptoslime{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    } 
+   }
+   
+   .criptoslime__imagen{
+    text-align: center;
+    width: 100%;
+    padding: 3rem;
+}
+    .formulario{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        padding: 2rem;
+    }
+   .formulario__campo{
+       border:1rem solid var(--primarioOscuro);
+        background-color: transparent;
+        color: var(--primarioOscuro);
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   .formulario__submit{
+       background-color: var(--secundario);
+       border: none;
+       font-size: 2rem;
+       font-family: var(--fuente_principal);
+       padding: 2rem;
+       color: var(--blanco);
+       transition: backgraound-color .3s ease;
+   }
+   .formulario__submit:hover{
+       cursor: pointer;
+       background-color: var(--secundarioOscuro);
+      
+   }
