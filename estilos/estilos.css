@@ -89,7 +89,7 @@ h3{font-size: 2.4rem;}
     padding: 1rem 0;
     display: flex;
     justify-content: center;  
-    
+    width: 100%;
 }
 .navegacion__enlaces{
     font-family: var(--fuente_principal);
